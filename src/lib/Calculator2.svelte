@@ -30,9 +30,13 @@
             sum*=Number(nn);
             op="*";
         }else if(selection=="/"){
-            numbers=[...numbers, nn];
-            sum/=Number(nn);
-            op="/";
+            if(nn!=0){
+                numbers=[...numbers, nn];
+                sum/=Number(nn);
+                op="/";
+            }else{
+                alert("n2 is 0");
+            }
         }
         var ch=[]; var ch2=[]; let short="";
         ch.push(numbers[numbers.length-2]);
