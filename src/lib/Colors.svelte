@@ -22,7 +22,3 @@
 </div>
 <input type="button" on:click={randomstart} value="generate random number"/><br>
 <input type="button" on:click={randomstart2} value="generate random color"/>
-
-<style>
-
-</style>

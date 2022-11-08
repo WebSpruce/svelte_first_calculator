@@ -3,6 +3,7 @@
   import Calculator2 from './lib/Calculator2.svelte';
   import Counter from './lib/Counter.svelte'
   import Colors from "./lib/Colors.svelte";
+  import Shoppingcart from "./lib/Shoppingcart.svelte";
 </script>
 
 <main>
@@ -19,7 +20,10 @@
     <Calculator2/>
   </div>
   <div class="card">
-    <Colors></Colors>
+    <Colors/>
+  </div>
+  <div class="card">
+    <Shoppingcart></Shoppingcart>
   </div>
 </main>
 
