@@ -4,6 +4,7 @@
   import Counter from './lib/Counter.svelte'
   import Colors from "./lib/Colors.svelte";
   import Shoppingcart from "./lib/Shoppingcart.svelte";
+  import Zg from "./lib/Zg.svelte";
 </script>
 
 <main>
@@ -24,6 +25,9 @@
   </div>
   <div class="card">
     <Shoppingcart></Shoppingcart>
+  </div>
+  <div class="card">
+    <Zg></Zg>
   </div>
 </main>
 
