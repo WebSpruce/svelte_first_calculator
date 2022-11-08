@@ -6,6 +6,9 @@
   const decrease=()=>{
     count-=1;
   }
+  const reset=()=>{
+    count=0;
+  }
 </script>
 
 <h3>COUNT IS : {count}</h3>
@@ -15,3 +18,4 @@
 </button>
 
 <button on:click={decrease}>Decrease</button>
+<button on:click={reset}>Reset</button>

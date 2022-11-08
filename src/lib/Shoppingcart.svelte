@@ -8,7 +8,7 @@
     }
     const remove=(id2)=>{
         console.log(id2);
-        
+
 
     }
 </script>
