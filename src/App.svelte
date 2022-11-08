@@ -1,7 +1,8 @@
 <script>
   import Calculator from './lib/Calculator.svelte';
-    import Calculator2 from './lib/Calculator2.svelte';
+  import Calculator2 from './lib/Calculator2.svelte';
   import Counter from './lib/Counter.svelte'
+  import Colors from "./lib/Colors.svelte";
 </script>
 
 <main>
@@ -16,6 +17,9 @@
 
   <div class="card">
     <Calculator2/>
+  </div>
+  <div class="card">
+    <Colors></Colors>
   </div>
 </main>
 
