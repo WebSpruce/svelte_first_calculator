@@ -60,7 +60,7 @@
 
 <input type="text" maxlength="1" on:keydown={guessfunction}>
 <h3>{result}</h3>
-<input type="button" value="generate word" on:click={reset}>
+<input type="button" value="reset" on:click={reset}>
 
 <style>
     h6{
