@@ -5,6 +5,7 @@
   import Colors from "./lib/Colors.svelte";
   import Shoppingcart from "./lib/Shoppingcart.svelte";
   import Zg from "./lib/Zg.svelte";
+  import Text_operations from "./lib/Text_operations.svelte";
 </script>
 
 <main>
@@ -29,6 +30,10 @@
   <div class="card">
     <Zg></Zg>
   </div>
+  <div class="card">
+    <Text_operations></Text_operations>
+  </div>
+
 </main>
 
 <style>

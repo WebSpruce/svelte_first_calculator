@@ -24,16 +24,14 @@
         if(e.key==='Enter'){
             console.log("E : "+e.target.value);
             for(let i=0; i<word.length; i++){
+
                 if(e.target.value == word[i]){
                     console.log("OK : "+e.target.value);
                     word2=replaceChar(word2,e.target.value,i);
                     guess=true;
-                }else{
-
-                    guess=false;
                 }
             }
-
+            console.log("guess: "+guess);
             if(guess==false){
                 f++;
             }
